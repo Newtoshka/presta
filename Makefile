@@ -4,7 +4,7 @@ composer:
 	composer install
 
 assets:
-	./tools/assets/build.sh
+	cmd /c C:\xampp\htdocs\presta\tools\assets\build.sh
 
 front-core:
 	./tools/assets/build.sh front-core
